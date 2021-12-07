@@ -4,6 +4,8 @@ I created a web crawler using Scrapy to perform a bredth first search on 1000 wi
 My starting page was the Computer science wikipedia page. The goal of th project was to extract the most important computer science topics. 
 To process my data, I removed all leftover html elements, removed all stopwords from the NLTK stopwords library, tokenized my words, stemmed my words, and removed punctuation. 
 
+In order to run the spider, the following line should be typed in the command prompt: scrapy crawl -spidername- -O CSWiki1000.json
+
 
 -setting.py contains the setting that I used for my Web crawler.
 
