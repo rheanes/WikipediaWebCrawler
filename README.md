@@ -5,5 +5,7 @@ My starting page was the Computer science wikipedia page. The goal of th project
 To process my data, I removed all leftover html elements, removed all stopwords from the NLTK stopwords library, tokenized my words, stemmed my words, and removed punctuation. 
 
 
-DataAnaysisOfWikipedia.ipynb is the code that I used to process the data. This code was created in GoogleCollab.
+DataAnaysisOfWikipedia.ipynb is the code that I used to process the data. This code was created in GoogleCollab. This file also contains the output for the program.
+
+
 CSWiki1000 contains a json file with the data that was retrieved from my web crawler. 
